@@ -20,8 +20,8 @@ public class PostHandler implements RequestHandler<Map<String,String>, Map<Strin
 
     public Map<String,String> handleRequest(final Map<String,String> input, final Context context) {
 
-
-        return new HashMap<String,String>();
+        Map<String,String> response = new HashMap<String,String>();
+        return response;
 
     }
 
